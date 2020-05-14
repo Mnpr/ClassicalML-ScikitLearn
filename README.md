@@ -1,11 +1,21 @@
 # Implementation of Machine Learning Algorithms
 
-- Decision Tree
-  - Classification
-  - Regression
+## Decision Tree
 
-- Clustering
-  - K means
-  - Heirarchical
+- Decision Tree Classification
 
-- K nearest neighbors
+- Decision Tree Regression
+
+
+
+## Clustering
+
+- K-Means Clustering
+
+- Heirarchical Clustering
+
+
+
+## KNN
+
+- K Nearest Neighbors Classificaiton
