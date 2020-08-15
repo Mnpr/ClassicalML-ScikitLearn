@@ -1,35 +1,67 @@
-# Implementation of Machine Learning Algorithms
+# Implementation: Machine Learning (ScikitLearn)
 
-## Decision Tree
+Implementaion of Classical Machine Learning algorithms in Python (Ipynb Notebooks)
 
-- Decision Tree Classification
+## Notebooks :
 
-- Decision Tree Regression
+- [Regression](./implementation-ipynb/Regression.ipynb) - Linear, Multiple-Linear Regression
 
-## Clustering
+- [Support Vector Machine](SVM.ipynb) - Iris Dataset ( Linear & RBF kernel)
 
-- K-Means Clustering
+### - Decision Tree
 
-- Heirarchical Clustering
+- [Decision Tree Classification](./implementation-ipynb/DecisionTrees/DecisionTreeClassification.ipynb) - UCI Banknote Authentication Dataset
 
-## KNN
+- [Decision Tree Regression](./implementation-ipynb/DecisionTrees/DecisionTreeRegression.ipynb) -  FSU Petron Consumption Dataset
 
-- K Nearest Neighbors Classificaiton
+### - Clustering
 
-## Exploration of high-dimensional data
+- [K-Means Clustering](./implementation-ipynb/Clustering/KMClustering.ipynb)
 
-- LDA, PCA
+- [Heirarchical Clustering](./implementation-ipynb/Clustering/HeirarchicalClustering.ipynb) - Customer Segmentation Using Clustering
 
-- t-SNE, ISOMAP
+### - KNN
 
-## Model Selection
+- [K Nearest Neighbors Classificaiton](./implementation-ipynb/KNN.ipynb) - Iris DataSet Classification
 
-- Holdout
+### - Exploration of high-dimensional data
 
-- Algorithm Selection
+- LDA, [PCA](./implementation-ipynb/HighDimensionalExploration/miceProtein.ipynb) - Mice Protein data exploration and clustering
 
-- k-Fold and Nested k-Fold CV
+- [t-SNE, ISOMAP](./implementation-ipynb/HighDimensionalExploration/tSNE.ipynb) - MNIST Handwritten digits in High-dimensional manifold
 
-- Model Selection Pipeline
+### - Model Selection
 
-- AIC, BIC, MDL
+- [Holdout](./implementation-ipynb/ModelSelection/Holdout.ipynb) - Problem associated with model evaluation using Holdout
+
+- [Algorithm Selection](./implementation-ipynb/ModelSelection/AlgorithmPerformanceComparison.ipynb.ipynb) - Performance Comparison ( SVM, KNN, and Logistic Regression) Iris DataSet
+
+- [k-Fold and Nested k-Fold CV](./implementation-ipynb/ModelSelection/NestedCrossValidation.ipynb) - Breast Cancer Dataset Algorithm Selection( KNN, Logistic Regression, SVM, Random Forest etc.) - Performance and Learning Curve.
+
+- [Model Selection Pipeline](./implementation-ipynb/ModelSelection/ModelSelectionPipeline.ipynb) - Feature Selection, Tuning, Model Evaluation and Selection
+
+- [AIC, BIC, MDL](./implementation-ipynb/ModelSelection/AIC_BIC_MDL.ipynb) - Model Selection Criteria - Petrol Consumption Dataset.
+
+## Documentation :
+
+- [Introduction](./Theory/README.md)
+
+- [Classification](./Theory/Classification.md)
+
+- [Regression](./Theory/Regression.md)
+
+- [Clusterring](./Theory/Clustering.md)
+
+- [Decision Tree](./Theory/DecisionTree.md)
+
+- [SVM](./Theory/SVM.md)
+
+- [Perceptron](./Theory/Perceptron.md)
+
+- [KNN](./Theory/KNN.md)
+
+- [Dimensionality Reduction](./Theory/DimensionalityReduction.md)
+
+- [Generalization](./Theory/Generalization.md)
+  
+  ****
